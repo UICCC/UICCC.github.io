@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 3px;
+    font-family: sans-serif;
+}
+h1{
+    color: pink;
+    text-align: center;
+}
