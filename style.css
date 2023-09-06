@@ -1,32 +1,136 @@
-*{
+
+body, h1, h2, h3, h4, p {
     margin: 0;
-    padding: 3px;
-    font-family: sans-serif;
+    padding: 0;
 }
-h1{
-    color: blueviolet;
-    text-align: center;
-    font-style: italic;
-    font-weight: 22;
+
+
+body {
+    background-color: #fcde67;
+    color: #030e12;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 20%;
 }
-.firsth2{
-    color:#f4b41a
-    ;
-    text-align: center;
-    font-style: italic;
-    font-weight: 22;
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
-.secondh2{
-    color:#142d59;
+
+
+a {
+    text-decoration: none;
+    color: #5bccf6; 
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: hwb(0 0% 0%); /* changes color when pointing the mouse to the href's */
+}
+
+
+h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    animation: fadeInUp 1s ease;
     text-align: center;
-    font-style: italic;
-    font-weight: 22;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    animation: fadeInUp 1s ease;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+h4 {
+    font-size: 16px;
+    margin-top: 10px;
+    animation: fadeInUp 1s ease;
+}
+
+
+p {
+    margin-top: 10px;
+    animation: fadeIn 1s ease;
+}
+
+
+ul {
+    list-style: none;
+    margin-left: 20px;
+    animation: fadeIn 1s ease;
+}
+
+
+ul li::before {
+    content: "●";
+    display: inline-block;
+    width: 1em;
+    vertical-align: middle;
+}
+
+
+
+#contact {
+    border-top: 10px solid #ccc;
+    padding: 20px;
+    background-color: black;
+    animation: fadeIn 1s ease;
+    color: white;
+    margin-top: 100px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    animation: fadeIn 3s ease;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px black;
 }
     
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
     
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
