@@ -4,6 +4,29 @@
     font-family: sans-serif;
 }
 h1{
-    color: pink;
+    color: blueviolet;
     text-align: center;
+    font-style: italic;
+    font-weight: 22;
+}
+.firsth2{
+    color:#f4b41a
+    ;
+    text-align: center;
+    font-style: italic;
+    font-weight: 22;
+}
+.secondh2{
+    color:#142d59;
+    text-align: center;
+    font-style: italic;
+    font-weight: 22;
+}
+    
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
 }
