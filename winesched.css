@@ -1,10 +1,42 @@
-*{
-    margin: 25px;
+
+body, h1, h2, h3, p {
+    margin: 3px;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
     text-align: center;
-    height: 10;
+    margin: 0; 
 }
-.container{
-    padding: 40%;
-    width: 20%;
-   
+
+
+.background {
+    background-image: url('https://media.istockphoto.com/id/1285419968/vector/dragon-chinese-background.jpg?s=612x612&w=0&k=20&c=tb-rOXVVzc_ep0d3JISbKQgF-Uamt7Qq8XapImmpolA=');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(243, 245, 124, 0.8); 
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #333; 
+}
+
+
