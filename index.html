@@ -1,38 +1,69 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Yash portfolio</title>
-        <link rel="stylesheet" href="styleportfolio.css">
-       
-        </head>
-     <body>
-       <div class="heading"> <h1><span>M</span>Y<span>ACTIVITIES</span></h1> </div>
-    
-            <div class="learn"><h2>LEARN HTML</h2></div>
-            <div class="tab">
-            <table border="1">
-                <tr>
-                    <th> Fashion Blog</th>
-                    <th>  <a href= "https://uiccc.github.io/fashion.html"target="_blank">view here</a> </th>
-                  </tr>
-                    <tr>
-                     <th> Wine Festival </th>
-                     <th> <a href="https://uiccc.github.io/WineFestivalSchedule.html" target="_blank">view here</a></th>
-                     
-                </tr>
-                <tr>
-                  <th> Davies Burger </th>
-                  <th> <a href="https://uiccc.github.io/DaviesBurger.html" target="_blank">view here</a></th>
-                  
-             </tr>
-            </table> </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Space+Mono&display=swap');
+        </style>
+    <link rel="stylesheet" href="style.css">
+    <title> Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
             <div class="effect">
-            <h1>System<span style="color:white;">.<span style="color:#e06c75;">out</span>.</span><span style="color:#61afef;">println</span>("</h1>
-            <div class="string">
-              <h1 class="greeting en">Welcome</h1>
-              <h1 class="greeting es">TO</h1>
-              <h1 class="greeting de">My</h1>
-              <h1 class="greeting it">Portfolio</h1>  
+                <h1>System<span style="color:white;">.<span style="color:#e06c75;">out</span>.</span><span style="color:#61afef;">println</span>("</h1>
+                <div class="string">
+                  <h1 class="greeting en">Welcome</h1>
+                  <h1 class="greeting es">TO</h1>
+                  <h1 class="greeting de">My</h1>
+                  <h1 class="greeting it">Portfolio</h1>  
+                </div>
+                <h1 class="closure">");</h1> </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about" class="section">
+        <div class="container">
+            <div class="heading"> <h1><span>M</span>Y<span>ACTIVITIES</span></h1> </div>
+            <p>Learn HTML</p>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href= "https://uiccc.github.io/fashion.html"target="_blank"><img src="https://images.pexels.com/photos/1194410/pexels-photo-1194410.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Project 1" ,></a>
+                    <p> Fashion Blog</p>
+                    
+                   
+                </div>
+                <div class="gallery-item">
+                    <a href="https://uiccc.github.io/WineFestivalSchedule.html" target="_blank"> <img src="https://images.pexels.com/photos/5718027/pexels-photo-5718027.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Project 2"></a>
+                    <p> Vine WineFestivalSchedule</p>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://uiccc.github.io/DaviesBurger.html" target="_blank"> <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Project 3"> </a>
+                    <p> DaviesBurger </p>
+                </div>
+                <!-- Add more gallery items as needed -->
             </div>
-            <h1 class="closure">");</h1> </div>
-          
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p> contact information here.</p>
+        </div>
+        
+    </section>
+</body>
+</html>
