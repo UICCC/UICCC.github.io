@@ -1,279 +1,478 @@
-/* Reset some default browser styles */
-body, h1, ul, li {
+*{
   margin: 0;
   padding: 0;
+  background-color:beige;
+  
 }
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #FAF1E4;
-}
-
-.header-box {
-  color: #ffffff;
-  text-align: left;
-  padding: 80px;
-  max-width: 200px;
-  margin-top: 30px;
-}
-h1{
-  color: black;
-}
-.pic{
+.dash{
   position: absolute;
-  top: 12%;
-  right: 260px;
-  left: auto;
-}
-.wel{
-  position: absolute;
-  top: 330px;
   right: auto;
-  left: 500px;
-  font-size: xx-large;
-}
-.bal{
-  position: absolute;
-  top: 310px;
-  right: auto;
-  left: 1200px;
-  font-size:larger;
-}
-.peso{
-  position: absolute;
-  top: 360px;
-  right: auto;
-  left: 1200px;
-  font-size: 40px 
-}
-.money{
-  color: white;
-  position: absolute;
-  top: 360px;
-  right: auto;
-  left: 1250px;
-  font-size: 40px
-   
-}
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  background-color: white;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.transactions {
-  padding: 10px;
-}
-
-.transactions ul li {
-  margin-bottom: 110px !important;
-  margin-top: 75px;
-}
-
-ul {
-  list-style: none;
-  padding: 10px;
-}
-
-.center-box, .top-box, .box {
-  text-align: center;
-  background-color: #CEDEBD;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-  margin: 20px auto;
-}
-
-.center-box {
-  position: absolute;
-  top: 400px;
-  right: 10%;
-  left: -85%;
-  transform: translate(0%, -50%);
-  width: 25%;
-  height: 1000px;
-  padding: 20px;
-  z-index: -2;
-}
-
-.top-box {
-  background-color: #9EB384;
-  position: absolute;
-  top: 655px;
-  right: 10%;
-  left: -75%;
-  transform: translate(0%, -50%);
-  width: 10%;
-  height: 10px;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-}
-
-.box {
-  /* Common styles for all boxes */
-  width: 25%;
-  height: 200px;
-  padding: 20px;
-}
-
-.box1 {
-  background-color: #9EB384;
-  position: absolute;
-  top: 525px;
-  right: 10%;
-  left: -75%;
-  transform: translate(0%, -50%);
-  width: 10%;
-  height: 10px;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-}
-
-.box2 {
-  background-color: #9EB384;
-  position: absolute;
-  top: 400px;
-  right: 10%;
-  left: -75%;
-  transform: translate(0%, -50%);
-  width: 10%;
-  height: 10px;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-}
-
-.box3 {
-  background-color: #9EB384;
-  position: absolute;
-  top: 270px;
-  right: 10%;
-  left: -75%;
-  transform: translate(0%, -50%);
-  width: 10%;
-  height: 10px;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-}
-
-.box4 {
-  background-color: #9EB384;
-  position: absolute;
-  top: 780px;
-  right: 10%;
-  left: -75%;
-  transform: translate(0%, -50%);
-  width: 10%;
-  height: 10px;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-}
-
-.box5 {
-  background-color: #CEDEBD; /* big behind green box */
-  position: absolute;
-  top: 530px;
-  right: 10%;
-  left: 20%;
-  transform: translate(0%, -50%);
-  width: 70%;
-  height: 80%;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-
-}
-
-.box6 {
-  background-color: #EDB7ED; /* Chartreuse */
-  position: absolute;
-  top: 380px;
-  right: 90%;
-  left: 25%;
-  transform: translate(0%, -50%);
-  width: 30%;
-  height: 20%;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-  border: 3px solid #000;
-
-}
-
-.box7 {
-  background-color: grey; /* Hot Pink */
-  position: absolute;
-  border-radius: 50%;
-  width: 0;
-  height: 0;
+  left: 450px;
   top: 80px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.un{
+  position: absolute;
   right: auto;
-  left: 80%;
-
+  left: 1150px;
+  top: 90px;
+  font-size: 15px;
+  font-family: sans-serif;
 }
-.box8 {
-  background-color: #EDB7ED; /* rightbox*/
+.tr p{
   position: absolute;
-  top: 380px;
-  right: 50%;
-  left: 60%;
-  transform: translate(0%, -50%);
-  width: 23%;
-  height: 20%;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-  border: 3px solid #000;
-
+ right: auto;
+ left: 40px;
+ top: 700px;
+ font-size: 40px;
+ background-color: transparent;  
+ 
 }
-.box9 {
-  background-color: #EDB7ED; /* Chartreuse */
+.sp{
   position: absolute;
-  top: -370px;
-  right: 30%;
-  left: 5%;
-  transform: translate(0%, -50%);
-  width: 60%;
-  height: 340px;
-  padding: 20px;
-  z-index: -2;
-  border-radius: 20px;
-  border: 3px solid #f5f5f5;
-  position: relative; /* Add this to make the ::before pseudo-element relative to the .box9 element */
+ right: auto;
+ left: 100px;
+ top: 790px;
+ font-size: 20px;  
 }
-
-.box9::before {
-  content: "";
-  position: absolute;
-  top: 10%; /* Place the line in the center vertically */
-  left: 0;
-  right: 0;
-  height: 2px; /* Adjust the height of the line as needed */
-  background-color: #000; /* Adjust the color of the line as needed */
-  
+.disc{
+position: absolute;
+ right: auto;
+ left: 100px;
+ top: 810px;
+ font-size: 13px;  
 }
-
-img{
+.disc1{
   position: absolute;
-  top: 650px;
+   right: auto;
+   left: 1230px;
+   top: 820px;
+   font-size: 13px;  
+  }
+
+.amt{
+  position: absolute;
+   right: auto;
+   left: 1250px;
+   top: 800px;
+   font-size: 20px;
+   color: red;  
+  }
+.bank{
+    position: absolute;
+     right: auto;
+     left: 100px;
+     top: 840px;
+     font-size: 20px;  
+    }
+    
+.disc2{
+position: absolute;
+ right: auto;
+ left: 100px;
+ top: 860px;
+ font-size: 13px;  
+}
+.amt2{
+  position: absolute;
+   right: auto;
+   left: 1250px;
+   top: 850px;
+   font-size: 20px;
+   color: rgb(81, 230, 114);  
+  }
+.exp{
+  position: absolute;
+     right: auto;
+     left: 40px;
+     top: 930px;
+     font-size: 40px; 
+}
+.pur{
+  position: absolute;
+ right: auto;
+ left: 100px;
+ top: 1020px;
+ font-size: 20px; 
+}
+.disc3{
+  position: absolute;
+ right: auto;
+ left: 100px;
+ top: 1040px;
+ font-size: 15px; 
+}
+.amt3{
+  position: absolute;
+   right: auto;
+   left: 1250px;
+   top: 1010px;
+   font-size: 20px;
+   color: rgb(81, 230, 114);  
+  }
+  .disc4{
+    position: absolute;
+   right: auto;
+   left: 1270px;
+   top: 1030px;
+   font-size: 15px; 
+  }
+  .inc{
+    position: absolute;
+    right: auto;
+    left: 40px;
+    top: 1130px;
+    font-size: 40px; 
+  }
+  .sor{
+    position: absolute;
+ right: auto;
+ left: 100px;
+ top: 1220px;
+ font-size: 20px;  
+
+  }
+  .disc5{
+    position: absolute;
+   right: auto;
+   left: 100px;
+   top: 1240px;
+   font-size: 15px; 
+  }
+  .amt4{
+    position: absolute;
+     right: auto;
+     left: 1250px;
+     top: 1210px;
+     font-size: 20px;
+     color: rgb(81, 230, 114);  
+    }
+    .disc6{
+      position: absolute;
+     right: auto;
+     left: 1270px;
+     top: 1230px;
+     font-size: 15px; 
+    }
+    .fil p{
+      position: absolute;
+     right: auto;
+     left: 8px;
+     top: 1540px;
+     font-size: 15px;
+     background-color: transparent; 
+    }
+    .sort p{
+      position: absolute;
+     right: auto;
+     left: 8px;
+     top: 1640px;
+     font-size: 15px;
+     background-color: transparent; 
+    }
+    .fil2 p{
+      position: absolute;
+     right: auto;
+     left: 550px;
+     top: 1570px;
+     font-size: 15px;
+     background-color: transparent; 
+    }
+
+
+
+.money{
+  position: absolute;
   right: auto;
-  left: 500px;
-  height: 200px;
+  left: 1150px;
+  top: 180px;
+  font-size: 15px;
+  font-family: sans-serif;
   
+
+}
+.box{
+  position: absolute;
+  width: 350px;
+  height: 630px;
+  border: 2px solid black;
+  background-color: #9eb384;
+  font-family:cursive;
+ 
+}
+.track{
+  position: absolute;
+  background-color: #9eb384;
+  left: 80px;
+  top: 30px;
 }
 
-.Dash{
+.box1{
+  
   position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
   top: 100px;
-  right: auto;
-  left: 400px;
+  right:auto;
+  left: 55px;
+  text-align: center;
+  line-height: 50px;
   
+  
+ 
 }
+.box-1{
+  background-color: white;
+  height: 50px;
+  border-radius: 30px;
+}
+.box2{
+  
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  top: 170px;
+  right:auto;
+  left: 55px;
+  text-align: center;
+  line-height: 50px;
+ 
+}
+.box-2{
+  background-color: white;
+  height: 50px;
+  border-radius: 30px;
+}
+.box3{
+  
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  top: 240px;
+  right:auto;
+  left: 55px;
+  text-align: center;
+  line-height: 50px;
+ 
+}
+.box-3{
+  background-color: white;
+  height: 50px;
+  border-radius: 30px;
+}
+.box4{
+  
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  top: 310px;
+  right:auto;
+  left: 55px;
+  text-align: center;
+  line-height: 50px;
+ 
+}
+.box-4{
+  background-color: white;
+  height: 50px;
+  border-radius: 30px;
+}
+.box5{
+  
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  top: 380px;
+  right:auto;
+  left: 55px;
+  text-align: center;
+  line-height: 50px;
+ 
+}
+.box-5{
+  background-color: white;
+  height: 50px;
+  border-radius: 30px;
+}
+.box6{
+  
+  position: absolute;
+  width: 900px;
+  height: 50px;
+  border-radius: 30px;
+  top: 140px;
+  right:auto;
+  left: 400px;
+  text-align: center;
+  line-height: 50px;
+ 
+}
+.box-6{
+  background-color: #9eb384;
+  height: 495px;
+  border-radius: 30px;
+}
+.box7{
+  
+  position: absolute;
+  width: 400px;
+  border-radius: 30px;
+  top: 190px;
+  right:auto;
+  left: 440px;
+  text-align:center;
+  line-height: 50px;
+ 
+}
+.box-7{
+  background-color: #e27fc9;
+  height: 135px;
+  border-radius: 30px;
+}
+.box8{
+  
+  position: absolute;
+  width: 350px;
+  border-radius: 30px;
+  top: 190px;
+  right:auto;
+  left: 850px;
+  text-align:center;
+  line-height: 50px;
+ 
+}
+.box-8{
+  background-color: #e27fc9;
+  height: 135px;
+  border-radius: 30px;
+}
+.box9{
+  
+  position: absolute;
+  width: 750px;
+  border-radius: 30px;
+  top: 350px;
+  right:auto;
+  left: 450px;
+  text-align:center;
+  line-height: 50px;
+ 
+}
+.box-9{
+  background-color: #e27fc9;
+  height: 270px;
+  border-radius: 30px;
+}
+.horizontal-line {
+  width: 100%; /* Make the line stretch the full width of the box */
+  height: 1px; /* Adjust the height of the line as needed */
+  background-color: black; /* Set the color of the line */
+  position: absolute; /* Position the line within the box */
+  top: 50px; /* Vertically center the line within the box */
+}
+.box10{
+  
+  position: absolute;
+  width: 1350px;
+  
+  top: 1450px;
+  right:auto;
+  left:0;
+  text-align:center;
+  line-height: 50px;
+ 
+}
+.box-10{
+  background-color: #9eb384;
+  height: 470px;
+  top: ;
+  border-radius: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.box11{
+  
+  position: absolute;
+  width: 90px;
+  height: 53px;
+  border-radius: 30px;
+  top: 1600px;
+  right:auto;
+  left: 550px;
+  text-align: center;
+  line-height: 50px;
+ 
+}
+.box-11{
+  background-color: transparent;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid;
+}
+.box12{
+  
+  position: absolute;
+  width: 90px;
+  height: 53px;
+  border-radius: 30px;
+  top: 1600px;
+  right:auto;
+  left: 650px;
+  text-align: center;
+  line-height: 50px;
+  color: #7F3DFF;
+ 
+}
+.box-12{
+  background-color: rgb(245, 217, 245);
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid;
+}
+.box13{
+  
+  position: absolute;
+  width: 90px;
+  height: 53px;
+  border-radius: 30px;
+  top: 1600px;
+  right:auto;
+  left: 750px;
+  text-align: center;
+  line-height: 50px;
+  
+ 
+}
+.box-13{
+  background-color:transparent;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid;
+}
+.box14{
+  
+  position: absolute;
+  width: 90px;
+  border-radius: 30px;
+  top: 1500px;
+  right:auto;
+  left: 1200px;
+  text-align: center;
+  line-height: 30px;
+  color: #7F3DFF;
+ 
+}
+.box-14{
+  background-color: rgb(245, 217, 245);
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid;
+}
+
