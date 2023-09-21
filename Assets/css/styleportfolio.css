@@ -57,7 +57,7 @@ nav ul li a:hover {
 .section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #333;
+    color: #af2424;
 }
 
 .section p {
@@ -203,7 +203,7 @@ body {
   
   .greeting {
     position: relative;
-    top: 8.4vmin;
+    top: 11.4vmin;
     animation: white-out 5s infinite;
   }
   
@@ -211,7 +211,7 @@ body {
     content: '';
     position: absolute;
     height: 25vmin;
-    width: 40vmin;
+    width: 60vmin;
     background: #333;
     transform: translate(-45vmin, -24.5vmin);
   }
@@ -219,10 +219,10 @@ body {
   .closure::before {
     content: '';
     position: absolute;
-    height: 20vmin;
-    width: 40vmin;
+    height: 25vmin;
+    width: 60vmin;
     background: #333;
-    transform: translate(-40vmin, 5.5vmin);
+    transform: translate(-40vmin, 6.9vmin);
   }
   
   .en {
@@ -243,14 +243,17 @@ body {
   
   @keyframes move {
     25% {
-      transform: translatey(-5.0vmin);
+      transform: translatey(-7.7vmin);
       opacity: 1;
     }
     50% {
-      transform: translatey(-11vmin);
+      
     }
     75% {
-      transform: translatey(-16.5vmin);
+      transform: translatey(-16.8vmin);
+    }
+    100%{
+      transform:translateY(-24vmin);
     }
   }
   
