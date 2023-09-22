@@ -273,3 +273,18 @@ a:hover {
   width: 40px; 
   height: 40px; 
 }
+.mypic{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.mypic img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 900px;
+  right: auto;
+  left: 40px;
+
+}
