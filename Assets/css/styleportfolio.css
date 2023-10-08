@@ -90,7 +90,7 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 .gallery-item:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 
 }
 
@@ -272,4 +272,19 @@ a:hover {
 .contact img {
   width: 40px; 
   height: 40px; 
+}
+.mypic{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.mypic img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 900px;
+  right: auto;
+  left: 40px;
+
 }
