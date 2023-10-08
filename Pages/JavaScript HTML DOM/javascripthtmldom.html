@@ -38,27 +38,19 @@
             let catName = a.value;
             let catDesc = b.value;
     
-            // Create a new row
+            
             let newRow = document.createElement("tr");
     
-            // Create two new cells for the row
+            
             let nameCell = document.createElement("td");
             let descCell = document.createElement("td");
-    
-            // Set the cell contents to the values from the input fields
             nameCell.textContent = catName;
             descCell.textContent = catDesc;
-    
-            // Append the cells to the row
             newRow.appendChild(nameCell);
             newRow.appendChild(descCell);
     
-            // Append the new row to the tbody
             d.appendChild(newRow);
     
-            // Clear the input fields
-            a.value = "";
-            b.value = "";
         }
     </script>
     
